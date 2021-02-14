@@ -1,25 +1,42 @@
-# README
 Event App
 ================
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Ruby on Rails
 
-* Ruby version
+This application requires:
 
-* System dependencies
+- Ruby 2.4.0
+- Rails 5.2.3
 
-* Configuration
+Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
-* Database creation
+## Getting Started
 
-* Database initialization
+```bash
+git clone git@github.com:m-huzaifa/event_app.git
+cd event_app
+```
 
-* How to run the test suite
+## Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+```shell
+bin/setup
+```
+Run this again if you want a clear instance of **database**.
 
-* Deployment instructions
+## Server
 
-* ...
+```shell
+rails s
+```
+## Run Test Suite/ Rspec
+
+```shell
+rspec
+```
+**Specs covers following test cases:**
+
+- Models specs
+- Routing specs
+- Views specs
+- Requets specs
